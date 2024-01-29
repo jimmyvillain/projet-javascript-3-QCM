@@ -1,0 +1,95 @@
+/*root*/
+:root {
+    --main-color: #FFFF;
+    --second-color: #550;
+    --third-color: black;
+    --four-color: #4A4;
+    --five-color: red;
+}
+
+/*html, body*/
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--second-color);
+}
+
+/*header*/
+header {
+    text-align: center;
+}
+
+/*container*/
+#container {
+    display: flex;
+    justify-content: center;
+    background-color: var(--main-color);
+    border: 0.1vw solid black;
+    box-shadow: 5px 5px 5px black;
+    margin: 4vw;
+    padding: 14vw;
+}
+
+/*section boutton*/
+#Tableau {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*id appuiyer*/
+#r1 {
+    background-color: var(--four-color);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+
+/*id click*/
+#r2 {
+    background-color: var(--four-color);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+
+/*id appui*/
+#r3 {
+    background-color: var(--four-color);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+
+/*id clicke*/
+#r4 {
+    background-color: var(--four-color);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+
+/*id resultat*/
+#resultat {
+    font-size: 80px;
+    margin-bottom: 1px;
+    
+}
+
+/*id score*/
+#score {
+    color: var(--third-color);
+    text-align: center;
+}
+
+/*id restart*/
+#bouton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+
+/*id restart*/
+#restart {
+    background-color: var(--five-color);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+}

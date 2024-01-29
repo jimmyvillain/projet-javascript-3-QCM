@@ -1,0 +1,21 @@
+/*Wieport sur Maquette mobile iphone 14Pro max*/
+@media screen and (max-width: 932px) {
+    
+    /*id container*/
+    #container{
+        margin: 5%;
+        padding: 35%;
+    }
+
+    /*id Tableau*/
+    #Tableau {
+        margin-top: 1%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    /*id bouton*/
+    #bouton {
+        margin-top: 5%;
+    }
+}
